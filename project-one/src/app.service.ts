@@ -10,4 +10,12 @@ export class AppService {
   getGiao(): string {
     return 'Giao!';
   }
+
+  testParam(a: string): string {
+    return "您通过get传参传进来的字符是" + a;
+  }
+
+  testQuery(a: string): string {
+    return "您通过get传参传进来的字符是" + a;
+  }
 }
